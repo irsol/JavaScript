@@ -23,4 +23,22 @@ describe('Test parse and extract hashtags function', function() {
     expect(result).to.eql([]);
     done();
   });
+
+  it('Expected behaivor: return empty array', function(done) {
+    var testCase = '';
+
+    var result = parseHashtag(testCase);
+
+    expect(result).to.eql([]);
+    done();
+  });
+
+  it('Expected behaivor: return empty array', function(done) {
+    var testCase = '## #';
+
+    var result = parseHashtag(testCase);
+
+    expect(result).to.eql([]);
+    done();
+  });
 });
