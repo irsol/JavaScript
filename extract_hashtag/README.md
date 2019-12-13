@@ -1,6 +1,6 @@
 #### Parse hashtag
 
-Parse and extract hashtag in a string and store as an array.
+Parse and extract hashtag from a string and store as an array.
 
 #### Setup for testing
 
